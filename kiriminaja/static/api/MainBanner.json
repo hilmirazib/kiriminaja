@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "image": "https://storage.googleapis.com/tprt0ezsggqjornc7nf1wwluvgulhr/kiriminaja-slider-content/djDmpUvwP8WgLcjs.webp",
+        "title": "Borzo Delivery Kini Sudah Hadir di KiriminAja!",
+        "description": "Kini pengiriman instant di KiriminAja makin banyak pilihannya! Update aplikasi KiriminAja-mu dan cobain kirim paket instant pakai Borzo Delivery!",
+        "href": "https://dashboard.kiriminaja.com/v3/mbr20/register",
+        "list":[
+            "Pengiriman Instant",
+            "Mulai dari Rp 2.000/km",
+            "Bisa diakses di seluruh wilayah Pulau Jawa, Bali, Balikpapan, Banda Aceh, dan Bandar Lampung."
+        ]
+    },
+    {
+        "id": 2,
+        "image": "https://kiriminaja.com/storage/Slider/November22/1669273853_Slider%20(2).png",
+        "title": "Ninja Xpress telah hadir di aplikasi KiriminAja.",
+        "description": "SahabatKA, ada yang baru nih di KiriminAja! Mulai hari ini layanan pengiriman paket Ninja Xpress hadir di aplikasi KiriminAja.",
+        "href": "https://dashboard.kiriminaja.com/v3/mbr20/register",
+        "list":[
+            "Ninja Xpress Standard",
+            "Support Penuh dari Ninja",
+            "Bisa Cash on Delivery"
+        ]
+    }
+    
+]
