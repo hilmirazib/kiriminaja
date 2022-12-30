@@ -33,12 +33,19 @@
               <a class="nav-link active d-block text-white py-2 px-3 btn-signup" aria-current="page" href="#">
                 <div class="d-flex justify-content-center align-items-center gap-2">
                   <span>Daftar Gratis</span>
-                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                  <svg width="20" height="20" viewBox="0 0 512 512">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                      stroke-width="40" d="m268 112l144 144l-144 144m124-144H100" />
+                  </svg>
                 </div>
               </a>
               <a href="#" class="nav-link active text-white">
                 <div class="d-flex justify-content-center align-items-center gap-2">
-                  <ion-icon name="book-outline"></ion-icon>
+                  <svg width="20" height="20" viewBox="0 0 512 512">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                      stroke-width="40"
+                      d="M256 160c16-63.16 76.43-95.41 208-96a15.94 15.94 0 0 1 16 16v288a16 16 0 0 1-16 16c-128 0-177.45 25.81-208 64c-30.37-38-80-64-208-64c-9.88 0-16-8.05-16-17.93V80a15.94 15.94 0 0 1 16-16c131.57.59 192 32.84 208 96Zm0 0v288" />
+                  </svg>
                   <span>Selengkapnya</span>
                 </div>
               </a>
@@ -76,7 +83,10 @@
                 </div>
                 <div class="col-lg-1 col-12">
                   <a href="#" class="btn-search-ongkir">
-                    <ion-icon name="search-outline"></ion-icon>
+                    <svg width="1em" height="1em" viewBox="0 0 32 32">
+                      <path fill="none" stroke="#ffffff" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+                        d="m5 27l7.5-7.5M28 13a9 9 0 1 1-18 0a9 9 0 0 1 18 0Z"></path>
+                    </svg>
                     <span>Cek Ongkir</span>
                   </a>
                 </div>
@@ -89,13 +99,8 @@
     <section class="mt-5 border border-white border-start-0 border-end-0 bg-carousel">
       <div class="container mx-auto px-3 position-relative">
         <carousel
-          :responsive="{ 0: { items: 1, nav: false }, 600: { items: 3, nav: true }, 1000: { items: 6, nav: false }}" 
-          :dots="false"
-          :loop="true"
-          :nav="false"
-          :autoplay="true"
-          :autoplayHoverPause="true"
-        >
+          :responsive="{ 0: { items: 1, nav: false }, 600: { items: 3, nav: true }, 1000: { items: 6, nav: false } }"
+          :dots="false" :loop="true" :nav="false" :autoplay="true" :autoplayHoverPause="true">
           <div class="my-3 p-2">
             <img src="https://kiriminaja-static-file.imgix.net/home-v3/logistics/anteraja.png" height="50px"
               alt="Kurir anteraja" class="img-fluid" />
@@ -412,11 +417,11 @@
 <script>
 export default {
   name: "IndexPage",
-    data: () => ({
-      dataBanner: [],
-    }),
-    async fetch() {
-      this.dataBanner = await fetch("http://localhost:3000/Api/Banner.json").then((res) => res.json());
-    },
+  data: () => ({
+    dataBanner: [],
+  }),
+  async fetch() {
+    this.dataBanner = await fetch("http://localhost:3000/Api/Banner.json").then((res) => res.json());
+  },
 };
 </script>

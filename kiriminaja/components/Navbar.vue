@@ -62,7 +62,8 @@
                 class="d-flex justify-content-center align-items-center gap-2"
               >
                 <span>Daftar Gratis</span>
-                <ion-icon name="arrow-forward-outline"></ion-icon>
+                <svg width="1em" height="1em" viewBox="0 0 32 32"><path fill="#ffffff" d="M5 15a1 1 0 1 0 0 2v-2Zm21 2a1 1 0 1 0 0-2v2Zm1-1l.707.707a1 1 0 0 0 0-1.414L27 16Zm-7.293-8.707a1 1 0 1 0-1.414 1.414l1.414-1.414Zm-1.414 16a1 1 0 0 0 1.414 1.414l-1.414-1.414ZM5 17h21v-2H5v2Zm22.707-1.707l-8-8l-1.414 1.414l8 8l1.414-1.414Zm-1.414 0l-8 8l1.414 1.414l8-8l-1.414-1.414Z"></path></svg>
+                
               </div>
             </a>
           </li>

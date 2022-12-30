@@ -19,5 +19,7 @@
     "vue-template-compiler": "^2.7.10",
     "vuex": "^4.1.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nuxt-icon": "^0.1.8"
+  }
 }
