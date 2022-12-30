@@ -1,0 +1,42 @@
+[
+    {
+        "id":1,
+        "image": "https://kiriminaja.com/assets/logistics/sicepat.png",
+        "name": "Sicepat Ekspress"
+    },
+    {
+        "id":2,
+        "image": "https://kiriminaja.com/assets/logistics/anteraja.png",
+        "name": "Antaraja"
+    },
+    {
+        "id":3,
+        "image": "https://kiriminaja.com/assets/logistics/idx.png",
+        "name": "ID Ekspress"
+    },
+    {
+        "id":4,
+        "image": "https://kiriminaja.com/assets/logistics/gosend.png",
+        "name": "Gosend"
+    },
+    {
+        "id":5,
+        "image": "https://kiriminaja.com/assets/logistics/jne.png",
+        "name": "JNE"
+    },
+    {
+        "id":6,
+        "image": "https://kiriminaja.com/assets/logistics/sap.png",
+        "name": "SAP"
+    },
+    {
+        "id":7,
+        "image": "https://kiriminaja.com/assets/logistics/jnt.png",
+        "name": "JNT"
+    },
+    {
+        "id":8,
+        "image": "https://kiriminaja.com/assets/logistics/sicepat.png",
+        "name": "Sicepat"
+    }
+]

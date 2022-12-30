@@ -1,0 +1,106 @@
+.area-kiriminaja{
+    min-height: 100vh;
+}
+.bg-kiriminaja{
+    background-color: #1C1B1F;
+}
+.bg-footer{
+    background-color: #1C1B1F;
+
+}
+.nav-kiriminaja{
+    height: 45px;
+    background-color: #151417;
+}
+.logo-kiriminaja{
+    width: 150px;
+}
+.btn-signup{
+    background-color: #4f378b;
+    border-radius: 20px;
+}
+.text-h1{
+    line-height: 1.25;
+    font-size: 3rem;
+}
+.text-p-header{
+    font-size: 1.125rem;
+}
+.list-group{
+    list-style-type: none;
+    max-width: 80%;
+}
+.list-group li{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+form.form-cek-ongkir {
+    background-color: #313033;
+    padding: 25px 40px;
+    border-radius: 24px;
+}
+
+.form-cek-ongkir select.form-select,
+.form-cek-ongkir input.form-control
+ {
+    background: #313033;
+    color: #6c757d;
+    border: 0;
+    -moz-appearance: none;
+    -webkit-appearance: none !important;
+    appearance: none !important;
+    padding: 10px 0;
+}
+.btn-search-ongkir {
+    color: white;
+    background-color: #4F378B;
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-left: auto;
+}
+.btn-search-ongkir span{
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+}
+.box-empowering{
+    background-color: #313033;
+    border-radius: 30px;
+}
+.box-empowering-icon{
+    background-color: #484649;
+    padding: 0.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+}
+.owl-carousel-custom .owl-carousel.owl-loaded {
+    display: flex !important;
+}
+@media only screen and (max-width: 991px) {
+    .btn-search-ongkir {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      font-size: 16px;
+      text-decoration: none;
+      width: 100%;
+      border-radius: 50px;
+      height: 50px;
+    }
+    .btn-search-ongkir span{
+        display: inline !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+  }
