@@ -12,19 +12,14 @@
             </p>
           </div>
           <ul class="list-group gap-3 mb-5">
-            <li class="">
-              <ion-icon name="shield-checkmark-outline"></ion-icon>
-              <span>Pengiriman Instant</span>
+            <li class="" v-for="value in list">
+              <svg width="32" height="32" viewBox="0 0 512 512">
+              <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M336 176L225.2 304L176 255.8"/>
+              <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M463.1 112.37C373.68 96.33 336.71 84.45 256 48c-80.71 36.45-117.68 48.33-207.1 64.37C32.7 369.13 240.58 457.79 256 464c15.42-6.21 223.3-94.87 207.1-351.63Z"/>
+              </svg>
+              <span>{{ value }}</span>
             </li>
-            <li class="">
-              <ion-icon name="shield-checkmark-outline"></ion-icon>
-              <span>Mulai dari Rp 2.000/km</span>
-            </li>
-            <li class="">
-              <ion-icon name="shield-checkmark-outline"></ion-icon>
-              <span>Bisa diakses di seluruh wilayah Pulau Jawa, Bali, Balikpapan,
-                Banda Aceh, dan Bandar Lampung.</span>
-            </li>
+            
           </ul>
           <div class="d-lg-flex d-block gap-3">
             <a class="nav-link active d-block text-white py-2 px-3 btn-signup" aria-current="page" :href="link">
