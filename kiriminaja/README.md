@@ -4,7 +4,7 @@
  
 * Home
 
-![GitHub Logo](/kirminaja.png)
+![GitHub Logo](https://github.com/hilmirazib/kiriminaja/blob/main/kiriminaja/kirminaja.png)
 ## Build Setup
 
 ```bash
